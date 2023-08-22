@@ -1,0 +1,294 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="his page contains all the Things
+    I am learning how to create as I learn Html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web page</title>
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>My Goals for the Year</h1>
+        <hr>
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#HTML">Learning HTML</a>
+                </li>
+                <a href="#Vacation">Planning a vacation</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contant Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+    <article id="#HTML">
+        <h2>Im Ready to Learn Html</h2>
+        <p>This is my first web page.</p>
+        <section>
+            <h3>HTML5</h3>
+            <img src="img/logo-html-5-256.png" alt="HTML5" title="Im learning HTML5" width="300px" height="300px">
+            <figure>
+                <figcaption>
+                    An Example of HTML5 code
+                </figcaption>
+                <p>
+                    <code>&lt;h1&gt;Hello World!&lt;;/h1&gt;</code>
+                </p>
+            </figure>
+        </section>
+        <section>
+            <h3>My Daily Schedule</h3>
+            <p>Let me tell you how:</p>
+            <ol>
+                <li>...I learn more about web dev.</li>
+                <li>...I plan out my schedule.</li>
+                <li>...I use resource from <abbr title="Mozzila Developer Network">
+                        <a href="https://developer.mozilla.org/"> MDN</a></abbr></li>
+            </ol>
+            <aside>
+                <details>
+                    <summary>
+                        Guess the <mark> number of hours </mark>i code per day </summary>
+                    <p>
+                        I start at <time datetime="08:00"> 8 am </time> and I wrirte code for <time datetime="PT3H"> 3
+                            hours </time> every morning.
+                    </p>
+
+                </details>
+            </aside>
+            <br>
+            <table>
+                <caption>My Daily Schedule</caption>
+                <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Activity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Morning</th>
+                        <td>
+                            <time datetime="08:00">8am </time>
+                            <time datetime="11:00">11am</time>
+                        <td>Write Code</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Break</th>
+                        <td>
+                            <time datetime="11:00">11am</time>
+                            <time datetime="12:00">12pm</time>
+                        <td>Eat Lunch</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Afternoon</th>
+                        <td>
+                            <time datetime="12:00">12pm </time>
+                            <time datetime="17:00">5pm</time>
+                        <td>Study for Other Courses</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Evening</th>
+                        <td rowspan="2">All Other Times</td>
+                        <td>Free Time</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Night</th>
+                        <td>Sleep</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="3">And that's what I do every day, 5 days a week. recharge! </td>
+                </tfoot>
+            </table>
+        </section>
+    </article>
+
+    <hr>
+
+    <article id="Vacation">
+        <h2>I Am Also Plannig a Vaction</h2>
+        <p>I've been workng hard and <em>really need a gateway</em>.</p>
+        <p>I live in KS I want visit a beach.</p>
+        <section>
+            <h3>Places I'd Like to Visit</h3>
+            <ul>
+                <li>
+                    <p>I've heard good things about the Caribbean</p>
+                    <figure>
+                        <img src="img/f25c777e1afbd007d69296097a7c15ef.jpg" alt="Caribbean Beach" title="I want to visit a Caribbean Beach
+" width="200px" height="200" loading="lazy">
+                        <figcaption>
+                            Caribbean Beach gateway
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <p>I've heard good thing about going here:</p>
+
+
+                    <address>
+                        Iran Middle East
+
+                    </address>
+
+                    <figure>
+                        <img src="img/vacation1.jpg" alt="Iran vacaetion " title="Is's 5 o'colock Somewhere!"
+                            loading="lazy">
+                        <figcaption>
+                            A Caribbean Vaction Images
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+        <!--TODO: Add more Places-->
+        <section>
+            <h3>Place I WAnt to Avoid</h3>
+            <dl>
+                <dt>North Pole</dt>
+                <dd>I hear this is <strong>Cold</strong>!</dd>
+                <dt>South Pole</dt>
+                <dd>This is also Cold.</dd>
+                <dt>Mountains Tops</dt>
+                <dd>These are also Cold.</dd>
+            </dl>
+        </section>
+    </article>
+    <hr>
+    <article id="caption">
+        <h2>Contact Me</h2>
+        <p>I'd really to hear from you!</p>
+
+        <form action="https:/httpbin.org/get/" method="get">
+            <fieldset>
+                <legend>Personal Info</legend>
+            <p>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Jane" a utocomplete="on" required
+                    autofocus>
+            </p>
+            <p>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Doe" a utocomplete="on" required>
+            </p>
+            <p>
+                <label for="phone">Password:</label>
+                <input type="password" name="password" id="password" placeholder="your secret " a required>
+            </p>
+            <p>
+                <label for="phone">phone:</label>
+                <input type="tel" name="phone" id="phone" placeholder="5555555555 " pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                    required>
+            <p>
+                <label for="decade">Favorite Decade:</label>
+                <input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980">
+            </p>
+            <p>
+                <label for="coffee">Favorite Coffee:</label>
+                <select name="coffee" id="coffee" multiple size="5">
+                    <optgroup label="Coffees">
+                    <option value="regular coffee">Regular Coffee</option>
+                    <option value="iced coffed">Iced Coffee</option>
+                    </optgroup>
+                    <optgroup label="Esperesso Drinks">
+                    <option value="latte coffee">Latte</option>
+                    <option value="cappuccino">Cappuccinoe</option>
+                    <option value="cortado">Cortado</option>
+                    <option value="americano">Americano</option>
+                 </optgroup>
+                    <option value="other">Other</option>
+                    
+
+                </select>
+            </p>
+   <!--          <p>
+            <label for="coffee">Favorite Coffee:</label>
+            <input type="text" name="coffee" id="coffee" list="coffee-list">
+            <datalist id="coffee-list">
+                <option value="coffee">
+                    <option value="latte">
+                        <option value="esperesso">
+                            <option value="cortado">
+                                <option value="americano">
+                                    <option value="other">
+                                    </datalist>
+                           
+                     
+        </p> -->
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>
+            What is Your Favorite Food:
+        </legend>
+        <p>
+            <input type="radio" name="food" id="tacos" value="tacos">
+            <label for="tacos">Tacos</label>
+        </p>
+        <p>
+            <input type="radio" name="food" id="pizza" value="pizza">
+            <label for="pizza">Pizza</label>
+        </p>
+            <p>
+                <input type="radio" name="food" id="other" value="other">
+                <label for="other">Other</label>
+            </p>
+        
+    </fieldset>
+    <fieldset>
+        <legend>Do you Have Pets?</legend>
+        <p>
+            <input type="checkbox" name="pets" id="dogs" value="dogs">
+            <label for="dogs">Dogs</label>
+        </p>
+            <p>
+                <input type="checkbox" name="pets" id="fishes" value="fishes">
+                <label for="fishes">Fish</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="cat" value="cat">
+                <label for="cat">Cat</label>
+
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="Other" value="Other">
+                <label for="Other">Other</label>
+            </p>
+        
+    </fieldset>
+    <fieldset>
+        <legend>Send Me A Note</legend>
+        <label for="message">Your Message:</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type Your Message Here"></textarea>
+    </fieldset>
+    <br>
+    
+    <button type="submit">Submit</button>
+    <button type="submit" formaction="https:''httpbin.org/post" formmethod="post">Post</button>
+    <button type="reset">Reset</button>
+        </form>
+    </article>
+    <hr>
+    <footer>
+        <p>
+            &lt; &lt; &lt; &copy; To learn about me<a href="AboutMe.html">Click here</a> &gt;&gt;&gt;</p>
+        <p><a href="#">back to the top</a></p>
+    </footer>
+</body>
+
+</html>
